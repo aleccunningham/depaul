@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @order.customer_id %>
+</p>
+
+<p>
+  <strong>Sale date:</strong>
+  <%= @order.sale_date %>
+</p>
+
+<p>
+  <strong>Date time:</strong>
+  <%= @order.date_time %>
+</p>
+
+<p>
+  <strong>Sale price:</strong>
+  <%= @order.sale_price %>
+</p>
+
+<p>
+  <strong>Sale tax:</strong>
+  <%= @order.sale_tax %>
+</p>
+
+<p>
+  <strong>Trans fee:</strong>
+  <%= @order.trans_fee %>
+</p>
+
+<p>
+  <strong>Total price:</strong>
+  <%= @order.total_price %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @order.created_at %>
+</p>
+
+<p>
+  <strong>Modified at:</strong>
+  <%= @order.modified_at %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

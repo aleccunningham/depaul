@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  sale_date: 2017-09-25 13:52:38
+  date_time: 2017-09-25 13:52:38
+  sale_price: 9.99
+  sale_tax: 9.99
+  trans_fee: 9.99
+  total_price: 9.99
+  created_at: 2017-09-25 13:52:38
+  modified_at: 2017-09-25 13:52:38
+
+two:
+  customer_id: 1
+  sale_date: 2017-09-25 13:52:38
+  date_time: 2017-09-25 13:52:38
+  sale_price: 9.99
+  sale_tax: 9.99
+  trans_fee: 9.99
+  total_price: 9.99
+  created_at: 2017-09-25 13:52:38
+  modified_at: 2017-09-25 13:52:38
